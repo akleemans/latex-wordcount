@@ -1,27 +1,73 @@
-*.py[co]
+# gitignore  v0.1
+# Most parts from github.com/github/gitignore
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
-.installed.cfg
+# Java
+*.class
+*.war
+*.ear
 
-# Installer logs
-pip-log.txt
+# Eclipse
+*.pydevproject
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.project
+.classpath
 
-# Unit test / coverage reports
-.coverage
-.tox
+# External tool builders
+.externalToolBuilders/
 
-#Translations
-*.mo
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-#Mr Developer
-.mr.developer.cfg
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# In case some maniac uses Mac:
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Same for Windows:
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# And Linux:
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+
+# Merge stuff:
+*.orig
+
+# ignore Maven scripts
+target/
+./target/
+*.sh
+
+# other stuff
+gen
+R.java

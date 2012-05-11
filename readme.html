@@ -1,0 +1,46 @@
+<h1>latex-wordcount</h1>
+
+<h2>Credit / License</h2>
+
+<p>Basic part of the script is from Stuart Curtis - <a href="http://sourceforge.net/projects/latexwordcount/">latexwordcount</a>.</p>
+
+<p>It is therefore under the same license:</p>
+
+<pre><code>This code is released under the GPLv2 license allowing its free use, modification and distribution.
+</code></pre>
+
+<p>See the <a href="raw/master/gpl-2.0.txt">license file</a> for more information.</p>
+
+<h2>Purpose</h2>
+
+<p>Counts number of words in a LaTeX file.</p>
+
+<p>Just run the script with a <em>tex</em>-file as argument:</p>
+
+<pre><code>wordcount.py file.tex
+</code></pre>
+
+<h2>Word count</h2>
+
+<p>Counted as text:</p>
+
+<ul>
+<li>normal text</li>
+<li>headers</li>
+</ul>
+
+<p>Not counted as words:</p>
+
+<ul>
+<li>references (<em>\ref</em>, <em>\cite</em>)</li>
+<li>header, footer</li>
+</ul>
+
+<h2>Know Bugs</h2>
+
+<ul>
+<li>Doesn't count word if adjacent to backslash (<em>word\normalsize</em> is not counted)</li>
+<li>Bold, italic and underlined words are not counted (<em>\textbf{word}</em> is not counted)</li>
+<li>Counts commands that begin '{\' as words</li>
+<li>Raises error if $ and $$ occur in a single word</li>
+</ul>
