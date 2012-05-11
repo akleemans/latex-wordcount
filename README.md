@@ -7,14 +7,14 @@ It is therefore under the same license:
 
 	This code is released under the GPLv2 license allowing its free use, modification and distribution.
 
-See the [license file](raw/master/gpl-2.0.txt) for more information.
+See the [license file](latex-wordcount/raw/master/gpl-2.0.txt) for more information.
 
 ## Purpose
 Counts number of words in a LaTeX file.
 
 Just run the script with a *tex*-file as argument:
 
-    wordcount.py file.tex
+    python wordcount.py file.tex
 
 ## Word count
 Counted as text:
