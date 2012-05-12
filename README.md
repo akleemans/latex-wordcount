@@ -28,7 +28,7 @@ Not counted as words:
 * header, footer
 
 
-## Know Bugs
+## Known Bugs
 * Doesn't count word if adjacent to backslash (*word\normalsize* is not counted)
 * Bold, italic and underlined words are not counted (*\textbf{word}* is not counted)
 * Counts commands that begin '{\' as words
