@@ -1,5 +1,8 @@
 # latex-wordcount
 
+Latest changes:
+* 2023-05-16: Updated to work with Python 3.11
+
 ## Credit / License
 Basic part of the script is from Stuart Curtis - [latexwordcount](http://sourceforge.net/projects/latexwordcount/).
 
